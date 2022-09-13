@@ -1,0 +1,20 @@
+ {
+  "name": "weather-cli-udemy",
+  "version": "1.0.0",
+  "description": "Cli for weather search",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danylo Liniychuk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "node-emoji": "^1.11.0"
+  }
+}
